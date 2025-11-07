@@ -110,7 +110,7 @@ int main() {
         }
 
         // Kill process option
-        cout << "\n" << YELLOW << BOLD << "🔪 Enter PID to kill (or 0 to skip): " << RESET;
+        cout << "\n" << YELLOW << BOLD << "Enter PID to kill (or 0 to skip): " << RESET;
         int pidToKill;
         cin >> pidToKill;
         if (pidToKill > 0) {
